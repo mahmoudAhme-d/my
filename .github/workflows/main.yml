@@ -1,0 +1,10 @@
+name: name
+on: push
+jobs:
+  jobs-name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print please im here and good job
+        run: echo "great job"
+      - name: print another great job
+        run: echo "another great job"
